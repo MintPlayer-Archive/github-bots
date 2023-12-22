@@ -1,11 +1,10 @@
 {
-  "name": "issue-greeter",
-  "version": "1.0.0",
+  "name": "@mintplayer/github-bots",
   "private": true,
-  "description": "Greets the user after he created an issue",
+  "description": "Collection of github bots",
   "author": "MintPlayer",
-  "license": "ISC",
-  "homepage": "https://github.com//",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/MintPlayer/github-bots",
   "keywords": [
     "probot",
     "github",
@@ -13,7 +12,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "start": "probot run ./lib/index.js",
     "test": "jest"
   },
   "dependencies": {
